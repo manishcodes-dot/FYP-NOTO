@@ -1,0 +1,39 @@
+# ——————————————————————————————————————————————————————————————
+# NOTO PROJECT .GITIGNORE
+# ——————————————————————————————————————————————————————————————
+
+# Node.js / Backend
+backend/node_modules/
+backend/dist/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.env
+
+# Flutter / Frontend
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/android/key.properties
+frontend/android/app/src/main/res/raw/
+frontend/*.js
+frontend/*.exe
+
+# IDEs & System
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Keep these (IMPORTANT for teachers)
+# Do NOT ignore pubspec.lock or package-lock.json
+# These ensure the teacher gets the exact same versions of libraries.
